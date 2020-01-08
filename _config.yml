@@ -10,11 +10,10 @@ exclude:
 
 # Site settings
 title: Woodi Blog
-subtitle: "woodi"
+subtitle: woodi
 email: 1206woojin@gmail.com
 name: Woojin Heo
-description: >
-"woodi blog"
+description: woodi blog
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -76,15 +75,15 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Instagram
-    icon: instagram
-    username: "@heo_woojin"
-    url: https://www.instagram.com/heo_woojin
+  - name: Twitter
+    icon: twitter
+    username: ""
+    url: ""
     desc: Follow me on Twitter
     share: true
 
-  - name: Twitter
-    icon: twitter
+  - name: Facebook
+    icon: facebook
     username: ""
     url: ""
     desc: Friend me on Facebook
@@ -92,14 +91,14 @@ social:
 
   - name: GitHub
     icon: github
-    username: "@woojin-heo"
+    username: woojin-heo
     url: https://github.com/woojin-heo
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: "@woojin heo"
+    username: woojin heo
     url: https://www.linkedin.com/in/woojin-heo-a7bb9814b
     desc: Connect with me on LinkedIn
     share: true
