@@ -78,7 +78,7 @@ descriptions:
 social:
   - name: Instagram
     icon: instagram
-    username: @heo_woojin
+    username: "@heo_woojin"
     url: https://www.instagram.com/heo_woojin
     desc: Follow me on Twitter
     share: true
@@ -92,14 +92,14 @@ social:
 
   - name: GitHub
     icon: github
-    username: @woojin-heo
+    username: "@woojin-heo"
     url: https://github.com/woojin-heo
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: @woojin heo
+    username: "@woojin heo"
     url: https://www.linkedin.com/in/woojin-heo-a7bb9814b
     desc: Connect with me on LinkedIn
     share: true
