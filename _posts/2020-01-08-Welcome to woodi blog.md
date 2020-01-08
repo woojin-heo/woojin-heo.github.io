@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome-to-woodi-blog"
+title:  "Welcome to woodi blog"
 date:   2020-01-08T14:25:52-05:00
 author: woodi
 categories: About
