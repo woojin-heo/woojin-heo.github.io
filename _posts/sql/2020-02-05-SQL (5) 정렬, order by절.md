@@ -21,24 +21,22 @@ from employees
 where department_id=50
 order by salary desc;
 ```
+order by절에서는 select절에 나열된 표현식 그대로 써줘야 한다.
 ```sql
--- order by절에서는 select절에 나열된 표현식 그대로 써줘야 한다.
-
 select employee_id, last_name, salary*12
 from employees
 where department_id=50
 order by salary*12 desc;
 ```
+만약 큰따옴표로 묶은 열별칭을 사용할 땐  order by절에서도 큰따옴표를 써줘야 한다.
 ```sql
--- 만약 큰따옴표로 묶은 열별칭을 사용할 땐  order by절에서도 큰따옴표를 써줘야 한다.
-
 select employee_id, last_name, salary*12 as "ann_sal"
 from employees
 where department_id=50
 order by "ann_sal" desc;
 ```
+열 별칭 대신 위치표기법을 이용할 수 있다.
 ```sql
--- 위치표기법을 이용
 -- 1:employee_id, 2:last_name, 3: ann_sal
 
 select employee_id, last_name, salary*12 as "ann_sal"
@@ -46,9 +44,8 @@ from employees
 where department_id=50
 order by 3 desc;
 ```
+order by 기준은 여러개로 사용 가능하다.
 ```sql
--- order by 기준 여러개 사용가능
-
 select department_id, salary, last_name
 from employees
 order by 1 asc, 2 desc;
