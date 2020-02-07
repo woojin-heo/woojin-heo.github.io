@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SQL (5) 정렬, order by절"
+title:  "SQL [5] 정렬, order by절"
 date:   2020-02-03T14:25:52-05:00
 author: woodi
 categories: SQL
