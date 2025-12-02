@@ -1,0 +1,15 @@
+title: Woojin Heo | Portfolio
+description: Woojin's Portfolio
+url: "https://woojin-heo.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
